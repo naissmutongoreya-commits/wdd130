@@ -24,14 +24,16 @@ nav{
     text-align: center;
     padding: 10px;
     display: block;
-    
+
 }
 
 nav a{
-    color: #ccc
+    color: #ccc;
+    padding: 10px;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    display: block;
 }
 
 nav a:hover{
