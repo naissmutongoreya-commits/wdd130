@@ -97,7 +97,7 @@ nav, p, section, article {
 /* Footer */
 footer {
   text-align: center;
-  padding: 16px;
+  padding: 12px;
   background-color: var(--primary-color);
   color: var(--accent2-color);
 }
