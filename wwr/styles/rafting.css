@@ -64,7 +64,7 @@ h1, h2 {
   font-weight: bold;
   margin: auto;
   padding: 20px;
-  width: auto;
+  max-width: 100%;
 }
 
 /* Base spacing */
