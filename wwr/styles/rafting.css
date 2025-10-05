@@ -24,7 +24,7 @@ body {
 
 /* Page Layout */
 header, main, footer {
-  width: 840px;
+  max-width: 840;
   margin: 0 auto;
 }
 
