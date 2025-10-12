@@ -173,7 +173,7 @@ h1, h2 {
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--primary-color);
   color: var(--accent2-color);
