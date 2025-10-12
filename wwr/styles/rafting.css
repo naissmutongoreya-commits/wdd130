@@ -43,6 +43,7 @@ header {
 
 header img {
   border-radius: 6px;
+  padding-left: 20px;
 }
 
 /* Navigation - Flex Layout */
