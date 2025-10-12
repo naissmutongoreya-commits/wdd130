@@ -135,30 +135,36 @@ h1, h2 {
 }
 
 /* Adventure Section */
-.adventures {
+.adventure {
   margin: 40px 0;
+  text-align: center;
 }
 
 .adventure-gallery {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  flex-wrap: nowrap; /* prevent wrapping to keep 5 in a row */
 }
 
 .adventure-gallery figure {
-  flex: 1 1 18%;
+  flex: 0 1 16%; /* smaller width so 5 fit in a row */
   text-align: center;
 }
 
 .adventure-gallery img {
-  width: 100%;
+  width: 100px;   /* make image fill figure width */
+  height: 100px;  /* keep aspect ratio */
+  object-fit: cover;
   border-radius: 8px;
+  border: 2px solid var(--accent1-color);
 }
 
 .adventure-gallery figcaption {
-  margin-top: 8px;
+  margin-top: 6px;
   font-style: italic;
+  font-size: 0.9rem;
   color: var(--accent1-color);
 }
 
