@@ -172,19 +172,20 @@ h1, h2 {
 /* Footer */
 footer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   background-color: var(--primary-color);
   color: var(--accent2-color);
   padding: 16px 20px;
   border-radius: 4px;
+  text-align: center;
 }
 
 .socialmedia {
   display: flex;
   gap: 12px;
 }
-
 .socialmedia img {
   border-radius: 50%;
 }
@@ -214,5 +215,6 @@ footer {
 
   header nav ul {
     justify-content: center;
+    padding: 15px 0;
   }
 }
