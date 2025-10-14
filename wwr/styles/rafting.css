@@ -60,6 +60,12 @@ header nav a {
   font-weight: bold;
 }
 
+nav a.active {
+  color: var(--accent1-color);
+  font-weight: bold;
+  border-bottom: 2px solid var(--accent1-color);
+}
+
 header nav a:hover {
   text-decoration: underline;
 }
